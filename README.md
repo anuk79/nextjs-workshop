@@ -12,8 +12,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## [Codesandbox](https://codesandbox.io/p/sandbox/next-js-starter-template-hkbfzv?file=%2FREADME.md)
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
