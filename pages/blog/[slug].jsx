@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Layout from '../../components/Layout';
 import { getAllPosts, getPostBySlug } from '../../utils/api';
-import markdownToHtml from '../../utils/markdownToHtml';
+import markdownToHtml from '../../utils/markdownToHTML';
 
 const Post = ({ post }) => {
   return (
