@@ -87,18 +87,17 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    padding: 20px;
+  padding: 20px 30px;
 }
 
 a {
   margin: 20px 10px 20px 0;
   font-size: 20px;
+  text-underline-offset: 2px;
+}
+
+h1 {
+  margin-bottom: 30px;
 }
 
 @media (prefers-color-scheme: dark) {
