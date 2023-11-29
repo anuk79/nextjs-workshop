@@ -83,16 +83,25 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-size: 1.25rem;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 20px;
+  padding: 20px 30px;
 }
 
 a {
   margin: 20px 10px 20px 0;
   font-size: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 @media (prefers-color-scheme: dark) {

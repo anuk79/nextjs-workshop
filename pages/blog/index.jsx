@@ -19,7 +19,6 @@ const Blog = ({ posts }) => {
         <title>Blogs</title>
       </Head>
       <section>
-        <Link href="/">Home</Link>
         <h1>Blogs</h1>
 
         <ul>
@@ -31,6 +30,9 @@ const Blog = ({ posts }) => {
             </li>
           ))}
         </ul>
+      </section>
+      <section>
+        <Link href="/">Home</Link>
       </section>
     </div>
   );
